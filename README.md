@@ -10,7 +10,7 @@ Each tool is implemented as a separate Streamlit application and can be run inde
 
 Setup Instructions
 Clone this repository to your local machine:
-git clone https://github.com/your-username/leadgen-toolkit.git
+git clone https://github.com/Arnav047/leadgen-toolkit.git
 
 Navigate to the project folder:
 cd leadgen-toolkit
