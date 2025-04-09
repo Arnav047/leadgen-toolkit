@@ -20,10 +20,10 @@ pip install -r requirements.txt
 Run the tools using the command line:
 
 To launch the LinkedIn Account Finder tool:
-streamlit run tool2LinkedinPerson.py
+streamlit run app.py
 
 To launch the Job Role Analyzer tool:
-streamlit run app.py
+streamlit run tool2LinkedinPerson.py
 
 Ensure that the companies.csv file is placed in the same directory as app.py for proper execution.
 
