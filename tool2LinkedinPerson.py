@@ -56,7 +56,7 @@ def is_relevant(title):
 
 
 st.set_page_config(page_title="Job Role Analyzer", layout="wide")
-st.title("🧠 Job Role Analyzer")
+st.title("Job Role Analyzer")
 st.markdown("Search job openings across Lever & Greenhouse for AI/Data/Sales roles.")
 
 company_input = st.text_input("Enter Company Slug (e.g., openai, notion, databricks):")
@@ -80,7 +80,7 @@ if company_input:
         st.success(f"Found {len(df)} job(s).")
         st.dataframe(df.drop(columns=["Relevant"]), use_container_width=True)
     else:
-        st.error("❌ No jobs found on Lever or Greenhouse.")
+        st.error("No jobs found on Lever or Greenhouse.")
 
 
 # In[ ]:
